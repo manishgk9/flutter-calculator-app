@@ -1,18 +1,92 @@
-# calculatarapp
+# 📱 Flutter Calculator App
 
-A new Flutter project.
+A modern calculator application built with **Flutter**, utilizing **Provider** for state management and **Material UI** for a sleek, responsive interface. This app demonstrates clean architecture, efficient state handling, and intuitive user interactions, making calculations seamless and visually appealing.
 
-## Developer Manish Yadav
+---
 
-## Getting Started
+## 🛠️ Features
 
-This project is a starting point for a Flutter application.
+- **Basic & Advanced Calculations**: Perform addition, subtraction, multiplication, division, and more.
+- **Clean UI with Material Design**: Consistent and modern design with smooth animations.
+- **State Management with Provider**: Efficiently manages the app state for seamless calculation updates.
+- **Responsive Layout**: Works across mobile devices of various screen sizes.
+- **History Tracking**: Keep track of previous calculations (optional enhancement).
+- **Extensible**: Easy to add more functions or integrate into larger applications.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Project Structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+
+📦 flutter-calculator-app
+┣ 📂 lib/
+┃ ┣ 📂 screens/          # UI screens
+┃ ┣ 📂 widgets/          # Reusable UI components
+┃ ┣ 📂 providers/        # State management with Provider
+┃ ┗ 📜 main.dart          # App entry point
+┣ 📂 assets/             # Images, icons, and other resources
+┣ 📜 pubspec.yaml        # Flutter dependencies
+┗ 📜 README.md           # Project documentation
+
+````
+
+---
+
+## ⚡ Installation & Running
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/manishgk9/flutter-calculator-app.git
+   cd flutter-calculator-app
+````
+
+2. **Install dependencies**:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app**:
+
+   ```bash
+   flutter run
+   ```
+
+   Make sure you have a connected device or emulator.
+
+---
+
+## 🔧 Technologies Used
+
+* **Flutter** – Cross-platform UI framework
+* **Provider** – State management
+* **Material UI** – Prebuilt design components
+* **Dart** – Programming language
+* **Optional**: Integration with backend or local storage for history
+
+---
+
+## 📸 Screenshots
+
+*Add screenshots of your app UI here to showcase the design and features.*
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Fork the repo, create a branch, and submit a pull request.
+
+---
+
+## 🔗 GitHub
+
+[Flutter Calculator App Repository](https://github.com/manishgk9/flutter-calculator-app)
+
